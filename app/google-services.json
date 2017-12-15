@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1044727802354",
+    "firebase_url": "https://locksafe-1c224.firebaseio.com",
+    "project_id": "locksafe-1c224",
+    "storage_bucket": "locksafe-1c224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044727802354:android:d909ee867957d971",
+        "android_client_info": {
+          "package_name": "com.muhammadhilmy.locksafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044727802354-3152r77q6a0gk0judhqpgflf1lafl5cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muhammadhilmy.locksafe",
+            "certificate_hash": "a0f86c9757b96665739e18a66501b8b7ad4797c7"
+          }
+        },
+        {
+          "client_id": "1044727802354-mbr50ub3fgd5u90of9pjuo037lf06qa7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrgJUROkWJaOE8OkW0OkSIXdwbFibdTEg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044727802354-mbr50ub3fgd5u90of9pjuo037lf06qa7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

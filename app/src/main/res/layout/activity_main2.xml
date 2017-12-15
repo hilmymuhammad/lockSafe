@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.muhammadhilmy.locksafe.MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/toggleButton"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/adamina"
+            android:text="@string/LockScreen"
+            android:textAlignment="center"
+            android:textColor="@color/text" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:background="@color/button_toggle_lock"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageButton"
+            android:layout_below="@+id/imageButton"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/adamina"
+            android:text="@string/textHome"
+            android:textColor="@color/text" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageButtonOut"
+            android:layout_toStartOf="@+id/textView4"
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignEnd="@+id/imageButtonOut"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/adamina"
+            android:text="@string/textOut"
+            android:textColor="@color/text" />
+
+        <ImageButton
+            android:id="@+id/imageButtonOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginTop="125dp"
+            android:layout_toEndOf="@+id/toggleButton"
+            app:srcCompat="@drawable/go" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/lock_now" />
+
+
+        <TextView
+            android:id="@+id/tv_place_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="26dp"
+            android:layout_toStartOf="@+id/toggleButton"
+            android:text="Place name..."
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/bt_ppicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/toggleButton"
+            android:layout_below="@+id/imageButton"
+            app:srcCompat="@drawable/pick" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_ppicker"
+            android:layout_toEndOf="@+id/imageButton"
+            android:text="@string/pick_lock"
+            android:textColor="@color/text"
+            android:textSize="10sp" />
+
+
+</RelativeLayout>
+

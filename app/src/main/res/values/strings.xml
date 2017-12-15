@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LOCKNOW</string>
+    <string name="LockScreen">Lock Screen</string>
+    <string name="unlock_thumb">unlock_thumb</string>
+    <string name="unlock_locked">unlock_locked</string>
+    <string name="unlock_instructions">unlock_instruction</string>
+    <string name="unlock_unlocked">unlock_locked</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5371571865968754/9876626342</string>
+    <string name="permission_accessibility_setting_description">"Menghidupkan Layanan ini akan menonaktifkat tombol HOME, RECENTS, BACK, dan MENU ."</string>
+    <string name="textHome">" I am Home"</string>
+    <string name="textOut">I am Outside</string>
+    <string name="textView" />
+    <string name="pick_loc">Click Icon to Pick Location</string>
+    <string name="pick_lock">Pick a Location</string>
+</resources>
